@@ -19,7 +19,7 @@ Our advanced algorithms help patients find the best doctors for their specific n
 ## Technologies Used
 
 - **Frontend:** [Insert frontend technologies, e.g., React, Angular, Vue.js]
-- **Backend:** [Insert backend technologies, e.g., Node.js, Django, Flask]
+- **Backend:** [Insert backend technologies, e.g., Node.js, Express.js]
 - **Database:** [Insert database technology, e.g., MySQL, MongoDB]
 - **Algorithms:** [Briefly explain the technologies used to build the doctor-matching algorithms]
 
@@ -48,6 +48,15 @@ Our advanced algorithms help patients find the best doctors for their specific n
     ```bash
     npm start
     ```
+
+## Demo Video
+
+Here’s a preview of how the Medico Vita website looks:
+
+<video width="600" controls>
+  <source src="./path-to-video/MEDICO_VITA.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Usage
 
