@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTRO PAGE</title>
+  <style>
+    body {
+      background-image: url('dna.webp');
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h2 {
+      color: #FFBBBB;
+      text-align: center;
+      font-size: 4vw;
+      line-height: 1.1em;
+      letter-spacing: 0.2em;
+      z-index: 1000;
+      font-weight: 900;
+      font-family: Algerian, sans-serif;
+      border: 5vw solid rgba(0, 0, 0, 0.5);
+      padding: 1vw;
+    }
+    h2:hover {
+      border: 5vw solid rgba(22, 131, 164, 0.5);
+    }
+    h2 span {
+      font-size: 0.5em;
+      letter-spacing: 0.8em;
+      font-weight: 400;
+      position: absolute;
+      right: 50%;
+      transform: translateX(50%);
+    }
+    .submit {
+      margin-top: 2em;
+      padding: 1em;
+      border-radius: 25px;
+    }
+    button {
+      font-size: 2vw;
+      border-radius: 30px;
+      background-color: rgb(28, 222, 200);
+      font-family: Algerian, sans-serif;
+      padding: 0.5em 1em;
+    }
+    button a {
+      text-decoration: none;
+      color: inherit;
+    }
+    button:hover {
+      box-shadow: 20px 20px 25px rgba(147, 138, 16, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 6vw;
+        border: 7vw solid rgba(0, 0, 0, 0.5);
+      }
+      h2:hover {
+        border: 7vw solid rgba(22, 131, 164, 0.5);
+      }
+      button {
+        font-size: 4vw;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 8vw;
+        border: 10vw solid rgba(0, 0, 0, 0.5);
+      }
+      h2:hover {
+        border: 10vw solid rgba(22, 131, 164, 0.5);
+      }
+      button {
+        font-size: 5vw;
+        padding: 0.5em 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>MEDICO_VITA<br><span>--LIFE IS GIFT</span></h2>
+  </div>
+  <div class="submit">
+    <button type="submit"><a href="login.html">LOGIN</a></button>
+  </div>
+</body>
+</html>

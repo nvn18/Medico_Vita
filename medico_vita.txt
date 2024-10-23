@@ -1,0 +1,7 @@
+1. frst we have to run the index.html page 
+2. that will re-direct to the login.html page 
+3. when ever you login it will redirect to the medico.html page
+4. in that you can search for the medicines and for the doctors
+5. before that you have to run the insertData.js file 
+6. then you have to run the data.js file , then you can search for any medicines
+7. we are using the mongodb , express file here

@@ -1,0 +1,80 @@
+body {
+    background-image:url('doc.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color:rgb(110, 37, 110);
+    border-radius:10px;
+  }
+  #time
+  {
+    float:left;
+  }
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .departments {
+    float:right;
+    overflow: hidden;
+  }
+  .login {
+    float:right;
+    overflow: hidden;
+    margin-right:20px;
+  }
+
+  .departments .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+  }
+  .login .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+  }
+  
+  .content {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .content a:hover {
+    background-color: lightcoral;
+  }
+  
+  .departments:hover .content {
+    display: block;
+  }
+  .login:hover .content {
+    display: block;
+  }
