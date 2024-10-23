@@ -18,10 +18,9 @@ Our advanced algorithms help patients find the best doctors for their specific n
 
 ## Technologies Used
 
-- **Frontend:** [Insert frontend technologies, e.g., React, Angular, Vue.js]
-- **Backend:** [Insert backend technologies, e.g., Node.js, Express.js]
-- **Database:** [Insert database technology, e.g., MySQL, MongoDB]
-- **Algorithms:** [Briefly explain the technologies used to build the doctor-matching algorithms]
+- **Frontend:** [frontend technologies, e.g.,  AngularJS, HTML , CSS, JavaScript]
+- **Backend:** [backend technologies, e.g., Node.js, Express.js]
+- **Database:** [database technology, e.g., MySQL, MongoDB]
 
 ## Installation
 
