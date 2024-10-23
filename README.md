@@ -53,10 +53,21 @@ Our advanced algorithms help patients find the best doctors for their specific n
 
 Here’s a preview of how the Medico Vita website looks:
 
-<video width="600" controls>
+<!-- <video width="600" controls>
   <source src="./path-to-video/MEDICO_VITA.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video> -->
+### Screenshots:
+
+![Image 1](./demo_videos/IMG1.PNG)
+![Image 2](./demo_videos/IMG2.PNG)
+![Image 3](./demo_videos/IMG3.PNG)
+![Image 4](./demo_videos/IMG4.PNG)
+![Image 5](./demo_videos/IMG5.PNG)
+![Image 6](./demo_videos/IMG6.PNG)
+![Image 7](./demo_videos/IMG7.PNG)
+![Image 8](./demo_videos/IMG8.PNG)
+![Image 9](./demo_videos/results1.PNG)
 
 ## Usage
 
